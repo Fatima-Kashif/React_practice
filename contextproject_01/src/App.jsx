@@ -1,5 +1,5 @@
-import Login from "./components/Login"
-import Profile from "./components/Profile"
+import Login from "./components/Login.jsx"
+import Profile from "./components/Profile.jsx"
 import UserContextState from "./context/usercontext.jsx"
 
 
