@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/* Hide default thick track, use custom thin track */
+.scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+
+.scrollbar::-webkit-scrollbar-track {
+  background: transparent; /* match your container */
+}
+
+.scrollbar::-webkit-scrollbar-thumb {
+  background: #7e22ce;
+  border-radius: 9999px;
+}
+
+.scrollbar::-webkit-scrollbar-thumb:hover {
+  background: #6b21a8;
+}
