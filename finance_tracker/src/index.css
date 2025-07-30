@@ -1,0 +1,19 @@
+@import "tailwindcss";
+@theme {
+   --color-customGray: oklch(38.4% 0.06 257);      /* #455A64 */
+  --color-customWhite: oklch(97.5% 0.002 270);     /* #FFFFFFB2 ~ semi transparent white */
+  --color-customGreen: oklch(90.0% 0.02 175);      /* #D9E7E5 */
+  --color-customDarkGreen: oklch(42.8% 0.07 187);  /* #42887C */
+  --color-customTextGray: oklch(45.5% 0.02 260);   /* #686868 */
+  --color-customDullLavender: oklch(90.5% 0.007 310); /* #E6E2E6 */
+  --color-customPurple: oklch(52% 0.04 320);       /* #836F81 */
+  --color-customYellow: oklch(84.0% 0.15 95);      /* #FFC727 */
+  --color-customBgGray: oklch(98.0% 0.001 270);    /* #F9F9F9 */
+  --color-customRed: oklch(48% 0.1 30);            /* #B05A5A */
+  --color-customDullRed: oklch(97% 0.02 20);       /* #FFEAEA */
+  --color-customGrassGreen: oklch(63% 0.14 145);   /* #5AB064 */
+  --color-customLightGreen: oklch(95% 0.02 140);   /* #ECFFEA */
+  --color-customGrayish: oklch(92% 0.002 260);     /* #EBEBEB */
+  --color-customFontGray: oklch(50% 0.02 260); 
+
+    }
