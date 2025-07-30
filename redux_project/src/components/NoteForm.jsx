@@ -11,6 +11,9 @@ export default function NoteForm() {
   const add=()=>{ //if we are handling it as an object in reducer then we should pass object with the properties by they are handled
     dispatch(addnote({note:note,important:important,category:category,title:title}))
     setNote('')
+    setCategory('')
+    setTitle('')
+    setImportant(false)
   }
   return (
     <div className="bg-white p-4 rounded-lg shadow-md flex flex-col gap-4">
